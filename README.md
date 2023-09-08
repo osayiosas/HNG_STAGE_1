@@ -1,4 +1,4 @@
 # HNG Internship Task 1
 
 
-[https://vercel.com/osayiosas/hng-stage-1](https://vercel.com/osayiosas/hng-stage-1)
+[https://hng-stage-1-murex.vercel.app/](https://hng-stage-1-murex.vercel.app/)

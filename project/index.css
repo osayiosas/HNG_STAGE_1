@@ -1,0 +1,143 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass' , sans-serif;
+  font-family: 'Ubutntu', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Overpass:wght@300;600&family=Roboto+Mono:ital,wght@1,300&family=Sofia+Sans+Semi+Condensed:ital,wght@1,1&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+
+:root {
+ --red--light: hsl(357, 44%, 76%);
+ --red--hover: hsl(355, 80%, 58%);
+ --bkg: hsl(0, 0%, 100%);
+ --text--footer: hsl(240, 2%, 79%);
+ --text--body: hsl(207, 13%, 34%);
+ --text--headings: hsl(208, 49%, 24%);
+ --bkg--footer: hsl(240, 10%, 16%);
+ --gradient--bkg: linear-gradient(
+    180deg,
+    hsl(13, 100%, 72%) 0%,
+    hsl(356, 100%, 66%) 100%);
+
+     --gradient--body: linear-gradient(
+    180deg,
+    hsl(237, 17%, 21%) 0%,
+    hsl(237, 23%, 32%) 100%);
+
+}
+
+.ctn {
+
+    height: 100vh;
+    background: var(--red--light);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+ .ctn .main   {
+    width: 50vw;
+    height: fit-content;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 2px var(--bkg--footer);
+    border: 1px solid var(--red--light);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+ .profile .p_img {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.profile h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: var(--bkg);
+}
+
+
+.main_page {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.main_page img {
+    width: 40px;
+}
+
+.details {
+    color: var(--bkg);
+}
+
+.details span {
+     display: flex;
+    gap: 1rem;
+    align-content: flex-end;
+}
+
+
+.ctn .main .main_page .profile .details .git .time {
+    display: flex;
+    gap: i.5rem;
+}
+.git a {
+    display: flex;
+    align-items: center;
+}
+
+.git .git_link {
+    text-decoration: none;
+    color: var(--red--hover);
+    justify-content: center;
+    align-items: center;
+}
+
+
+span  p {
+    color: var(--bkg);
+}
+
+span span p:last-child {
+    color:  var(--bkg);
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time span {
+    display: flex;
+    gap: 1rem;
+    align-content: flex-end;
+}
+
+footer {
+     font-size: 20px;
+     color: var(--bkg);
+}
